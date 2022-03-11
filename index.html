@@ -66,15 +66,17 @@
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        জাভাস্কিপ্ট কিভাবে কাজ করে?
+                        How Dose javascript Work?
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p>
-                            javascript হচ্ছে একটি single threaded এবং client side scriptint language. অর্থাৎ javascript
-                            এর একটি call-stack রয়েছে যা এটিকে চালানোর জন্য ব্যবহৃত হয়।
+                        <p> First of all js is single threaded language.And its read the code line by line.Its execute
+                            the code once by once.When we write code its store in a memory. For the function its set the
+                            value in parentheses. when code is execute line by
+                            line then its set the value. When function is called the same thing is repeated for the
+                            function and a new Global Execution Context is created for the every code.
                         </p>
                     </div>
                 </div>
@@ -83,16 +85,31 @@
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Accordion Item #2
+                        Difrence Local storage vs session storage!
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-                        the
-                        <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-                        this
-                        being filled with some actual content.
+                    <div class="accordion-body row">
+                        <div class="col">
+                            <b>Local Storage</b>
+                            <ul>
+                                <li>Browser এর মধ্যে Data স্থায়ীভাবে store করে রাখতে পারে</li>
+                                <li>Browser বন্ধ করে দিলেও সকল Data store এর মধ্যে থেকে যায়</li>
+                                <li>এটি 5 থেকে 10 mb এর মত data store করে রাখতে পারে</li>
+                                <li>Local storage এর data javascript বা সরাসরি delete করা যায় </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <b>Session Storage</b>
+                            <ul>
+                                <li>Browser এর মধ্যে Data স্থায়ীভাবে store করে রাখতে পারে না</li>
+                                <li>Browser বন্ধ করে দিলে সকল Data store এর মধ্যে থেকে চলে যায়</li>
+                                <li>ক্রোম এবং ফায়ারফক্স সহ বেশিরভাগ ব্রাউজার সেশন স্টোরেজে প্রায় 10 এমবি ডেটা store
+                                    করে রাখতে পারে।</li>
+                                <li>session storage এর data javascript বা সরাসরি delete করা যায় </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
